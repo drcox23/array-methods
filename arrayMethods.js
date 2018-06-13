@@ -24,6 +24,23 @@ console.log(nameArray);
 var newGenericNumberArrayLength = genericNumberArray.push(6, 7, 8, 9, 10);
 console.log(genericNumberArray);
 
+var popResult = colors.pop(3);
+console.log(colors);
+console.log(popResult);
+
+scrambledWords.reverse();
+console.log(scrambledWords);
+
+phoneNumber.reverse();
+console.log(phoneNumber);
+
+var nextOrder = orderQueue.shift();
+console.log(orderQueue);
+console.log(nextOrder);
+
+
+
+
 
 
 
