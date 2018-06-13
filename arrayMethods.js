@@ -51,6 +51,27 @@ console.log(notFruit);
 gemBox.splice(5, 7, "Sapphire");
 console.log(gemBox);
 
+upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+console.log(upToTen);
+console.log(upToTen.length);
+
+brownOnly.splice(1, 5, "brown", "brown", "brown");
+console.log(brownOnly);
+
+var orderedValuesNewLength = orderedValues.unshift(1,2,3);
+console.log(orderedValues);
+console.log(orderedValuesNewLength);
+
+var randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
+
+var updatedOrders = orderQueue.concat([{takeOut: "French Fries"}, {takeOut: "Large Shake"}]);
+console.log(updatedOrders);
+
+
+
+
+
 
 
 
